@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.cookiecard{
+  background: #000000bd !important;
+}

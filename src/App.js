@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CookieConsent from "react-cookie-consent";
 
 function App() {
   return (
@@ -18,6 +19,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <CookieConsent
+        buttonStyle={{ backgroundColor: "#00ff00", color: "#000" }}
+        containerClasses="cookiecard"
+        debug={true}
+      >
+        This website uses cookies or similar technologies, to enhance your
+        browsing experience and provide personalized recommendations. By
+        continuing to use our website, you agree to our Privacy Policy .
+      </CookieConsent>
     </div>
   );
 }
